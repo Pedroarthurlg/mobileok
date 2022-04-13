@@ -12,7 +12,10 @@ import styles from "./styles";
 
 export default function Cadastrar() {
   async function handleSignIn() {
-    console.log("Login");
+    console.log("Cadastrar");
+  }
+  function handleLogin() {
+    navigation.navigate("Login");
   }
 
   return (
@@ -45,8 +48,8 @@ export default function Cadastrar() {
               autoCapitalize="none"
             />
           </View>
-          <Button title="Login" type="purple" onPress={handleSignIn} />
-          <Button title="Cadastre-se" type="green" onPress={handleSignIn} />
+          <Button title="Salvar" type="purple" onPress={handleSignIn} />
+          <Button title="Voltar" type="green" onPress={handleLogin} />
         </KeyboardAvoidingView>
       </ImageBackground>
     </View>
