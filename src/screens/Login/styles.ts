@@ -29,8 +29,8 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 18,
-    color: colors.green,
-    padding: 10
+    padding: 5,
+    width: "80%"
   }
 })
 
