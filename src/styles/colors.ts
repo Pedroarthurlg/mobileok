@@ -5,6 +5,6 @@ export default {
   primaryLight: '#CFD8DC',
   secondary: '#7E57C2',
   secondaryLight: '#E8E2F4',
-  thirty: '#FFB74D',
-  thirtyLight: '#FFE9CA'
+  third: '#FFB74D',
+  thirdLight: '#FFE9CA'
 }

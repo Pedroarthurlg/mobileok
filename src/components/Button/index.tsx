@@ -9,8 +9,8 @@ export default function Button({ onPress, title, type, ...rest }: ButtonProps) {
       style={
         type == "primary"
           ? styles.buttonprimary
-          : type == "thirty"
-          ? styles.buttonThirty
+          : type == "third"
+          ? styles.buttonThird
           : styles.buttonSecondary
       }
       onPress={onPress}
