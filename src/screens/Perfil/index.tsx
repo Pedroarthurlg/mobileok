@@ -33,14 +33,10 @@ export default function Perfil() {
       </CardSocial>
       <Button
         title="Alterar Senha"
-        type="secondary"
+        type="thirty"
         onPress={() => console.log("Alterar Senha")}
       />
-      <Button
-        title="Sair"
-        type="secondary"
-        onPress={() => console.log("Sair")}
-      />
+      <Button title="Sair" type="thirty" onPress={() => console.log("Sair")} />
     </ImageBackground>
   );
 }
