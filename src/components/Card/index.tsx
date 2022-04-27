@@ -9,7 +9,7 @@ export default function CardSocial({ data }: CardProps) {
       <Text>
         {data.nome} - {data.data}
       </Text>
-      <View style={styles.msg}>
+      <View>
         <Text>Título: {data.titulo}</Text>
         <Text>Mensagem: {data.mensagem}</Text>
         <View style={styles.topicos}>

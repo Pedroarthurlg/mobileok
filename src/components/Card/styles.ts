@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   msg: {
-    textAlign: "justify",
+    textAlign: "left",
   },
   topicos: {
     flexDirection: "row",
