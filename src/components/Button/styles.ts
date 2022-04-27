@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
   buttonThirty: {
     backgroundColor: colors.thirty,
     borderRadius: 5,
-    margin: 10
+    margin: 10,
+    width: '90%'
   },
   text: {
     color: colors.white,
