@@ -22,6 +22,9 @@ const styles = StyleSheet.create({
   },
   input: {
     width: "50%"
+  },
+  list: {
+    marginBottom: 10
   }
 });
 

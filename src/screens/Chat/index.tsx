@@ -27,6 +27,7 @@ export default function Chat() {
           data={data}
           renderItem={renderItem}
           keyExtractor={(item) => String(item.id)}
+          style={styles.list}
         />
       </SafeAreaView>
     </ImageBackground>
