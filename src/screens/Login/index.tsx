@@ -13,7 +13,7 @@ import { LoginTypes } from "../../types/Screen.types";
 
 export default function Login({ navigation }: LoginTypes) {
   async function handleSignIn() {
-    navigation.navigate("Tab");
+    navigation.navigate("Drawer");
   }
   function handleCadastrar() {
     navigation.navigate("Cadastrar");
